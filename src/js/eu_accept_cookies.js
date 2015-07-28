@@ -11,7 +11,7 @@ var eu_accept_cookies = {
 			'MORE_INFO_HREF': '/info/cookies.html'
 		},
 		'en-EN': {
-			'ACCEPT_TEXT': 'This website use cookies. Using this website, You agree with saving a cookies to Your computer.',
+			'ACCEPT_TEXT': 'We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners.',
 			'ACCEPT_BUTTON_TEXT': 'Accept',
 			'MORE_INFO_TEXT': 'More info',
 			'MORE_INFO_HREF': '/info/cookies.html'
@@ -19,9 +19,9 @@ var eu_accept_cookies = {
 	},
 	div: null,
 	panel: function(lang) {
-		if (!this.isEmpy(lang)
+		if (!this.isEmpty(lang)
 				&& typeof lang === "string"
-				&& !this.isEmpy(this.langMessages[lang])) {
+				&& !this.isEmpty(this.langMessages[lang])) {
 			this.langSetted = lang;
 		} else {
 			this.langSetted = this.langDefault;
@@ -84,7 +84,7 @@ var eu_accept_cookies = {
 		}
 		this.langDefault = lang;
 	},
-	isEmpy: function(value) {
+	isEmpty: function(value) {
 		return value == null || value == undefined || value == ""
 			? true
 			: false;
