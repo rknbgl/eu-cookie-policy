@@ -7,14 +7,14 @@ This simple plugin to your website made this rule done.
 
 ## Installing
 Copy the content of "src/css" and "src/js" folder to your static files storage ( f.e. "static/*", "assets/*", etc. ).
-In HTML <head> tag link these files to the HTML code:<br />
+In HTML "head" tag link these files to the HTML code:<br />
 ```
 	<script src="/YOUR_PATH/js/eu_accept_cookies.js"></script>
 	<link rel="stylesheet" href="/YOUR_PATH/css/eu_accept_cookies.css" />
 ```
 
 ## Usage
-Copy this code to Your html code, before closing <body> tag.<br />
+Copy this code to Your html code, before closing "body" tag.<br />
 ```
 	<script type="text/javascript">
 		eu_accept_cookies.panel();
