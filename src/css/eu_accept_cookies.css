@@ -1,0 +1,41 @@
+.eu-accept-cookies-panel {
+	position: absolute;
+	z-index: 65000;
+	padding: 10px;
+	border-radius:8px;
+	border:#FFF solid 2px;
+	margin-top: 10px;
+	color:#FFF;
+	background: #000;
+	font-size: 14px;
+	width: 700px;
+	left: 50%;
+	top: 10px;
+	text-align: center;
+	margin-left:-350px;
+}
+
+.eu-accept-cookies-panel button {
+	display:inline-block;
+	margin-left: 10px;
+	border:#FFF solid 1px;
+	padding: 5px;
+	background:#333;
+	color:#FFF;
+	border-radius:4px;
+}
+
+.eu-accept-cookies-panel button:hover {
+	background:#b00;
+}
+
+.eu-accept-cookies-panel a {
+	display:inline-block;
+	margin-left: 10px;
+	color:#EEE;
+	text-decoration: underline;
+}
+
+.eu-accept-cookies-panel a {
+	text-decoration: none;
+}
