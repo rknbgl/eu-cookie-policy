@@ -6,15 +6,15 @@ According to the EU rules valid from September 2015, every website from EU must 
 This simple plugin to your website made this rule done.
 
 ## Installing
-Copy the content of src/css and src/js folder to Your static files storage ( etc. "static/*", "assets/*" ).
-In HTML HEAD tag link thees files to Your html code:<br />
+Copy the content of "src/css" and "src/js" folder to your static files storage ( f.e. "static/*", "assets/*", etc. ).
+In HTML <head> tag link these files to the HTML code:<br />
 ```
 	<script src="/YOUR_PATH/js/eu_accept_cookies.js"></script>
 	<link rel="stylesheet" href="/YOUR_PATH/css/eu_accept_cookies.css" />
 ```
 
 ## Usage
-Copy this code to Your html code, before closing "BODY" tag. This javascript function need one parameter and that is a language of Your website<br />
+Copy this code to Your html code, before closing <body> tag.<br />
 ```
 	<script type="text/javascript">
 		eu_accept_cookies.panel();
