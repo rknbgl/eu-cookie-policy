@@ -1,16 +1,16 @@
 # eu-cookie-policy
 Simple Javascript plugin for creating a cookie agreement panel
 
-<h1>EU Accept Cookies Policy</h1>
-According to the EU rules valid from September 2015,every website from EU must contains agreement for using a cookies files.
+<h2>EU Accept Cookies Policy</h2>
+According to the EU rules valid from September 2015, every website from EU must contains agreement for using a cookies files.
 This simple plugin to your website made this rule done.
 
 <h2>Installing</h2>
 Copy the content of src/css and src/js folder to Your static files storage ( etc. "static/*", "assets/*" ).
-In HTML HEAD tag link thees files to Your html code:
+In HTML HEAD tag link thees files to Your html code:<br />
 <code>
-	&lt;script src=&quot;/YOUR_PATH/js/eu_accept_cookies.js&quot;&gt;&lt;/script&gt;<br />
-	&lt;link rel=&quot;stylesheet&quot; href=&quot;/YOUR_PATH/css/eu_accept_cookies.css&quot; /&gt;<br />
+	&lt;script src=&quot;/YOUR_PATH/js/eu_accept_cookies.js&quot;&gt;&lt;/script&gt;\r\n
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/YOUR_PATH/css/eu_accept_cookies.css&quot; /&gt;\r\n
 </code>
 
 <h2>Usage</h2>
@@ -24,13 +24,14 @@ Copy this code to Your html code, before closing "BODY" tag. This javascript fun
 All done...
 
 <h2>Internationalization</h2>
-Initializing with predefined messages. Currenty supported are: sk-SK, en-EN, de-DE, fr-FR
+Initializing with predefined messages. Currenty supported are: sk-SK, en-EN, de-DE, fr-FR<br />
 <code>
 	&lt;script type=&quot;text/javascript&quot;&gt;<br />
 	&nbsp;&nbsp;&nbsp;&nbsp;eu_accept_cookies.panel(&quot;sk&quot;);<br />
 	&lt;/script&gt;\n<br />
 </code>
-If you need create a new language messages or customizing the messages of current language, you only need call a method "localize(langCode, Hash messages)" <strong>before</strong> calling a method "panel()" like on the example bellow
+<br /><br />
+If you need create a new language messages or customizing the messages of current language, you only need call a method "localize(langCode, Hash messages)" <strong>before</strong> calling a method "panel()" like on the example bellow<br /><br />
 <code>
 	&lt;script type=&quot;text/javascript&quot;&gt;<br />
 	&nbsp;&nbsp;&nbsp;&nbsp;eu_accept_cookies.localize(&quot;de-DE&quot;, {<br >
