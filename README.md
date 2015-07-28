@@ -3,7 +3,7 @@ Simple Javascript plugin for creating a cookie agreement panel
 
 ## EU Accept Cookies Policy
 According to the EU rules valid from September 2015, every website from EU must contains agreement for using a cookies files.
-This simple plugin to your website made this rule done.
+This simple plugin to your website do justice to this rule
 
 ## Installing
 Copy the content of "src/css" and "src/js" folder to your static files storage ( f.e. "static/*", "assets/*", etc. ).
